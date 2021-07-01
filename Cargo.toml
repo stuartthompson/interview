@@ -1,2 +1,2 @@
 [workspace]
-members = ["count-vowels/rs"]
+members = ["count-vowels/rs", "smallest-difference"]
