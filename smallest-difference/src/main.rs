@@ -2,6 +2,14 @@ fn main() {
     println!("Run cargo test to verify the answers.")
 }
 
+/// Returns the smallest difference between pairs of values from two arrays, as
+///  well as a sentence describing why the pair was picked.
+/// 
+/// # Arguments
+/// 
+/// * `first` The first array to select from.
+/// * `second` The second array to select from.
+#[allow(dead_code)]
 fn smallest_difference(first: &[u8], second: &[u8]) -> (u8, u8, String) {
     let mut smallest: u8 = 255;
     let mut f_res: u8 = 0;
