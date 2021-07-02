@@ -1,5 +1,5 @@
 fn main() {
-   println!("Run cargo test to exercise the answer.");
+   println!("Run cargo test to verify the answers.");
 }
 
 /// Returns the number of vowels within a string.
